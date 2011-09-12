@@ -22,7 +22,7 @@ $(function(){
  	$("canvas").attr('height',$(document).height());
 	$("canvas").attr('width', $(document).width());
 
-	//load bkgd img
+	//load bkgd img to canvas
 	$("canvas").drawImage({
 		  		source: "imgs/bkgd.jpg",
 		 		x: 0, 
@@ -46,7 +46,7 @@ $(function(){
 		 		fromCenter: false
 			});
 		});
-	
+	// Stop distort w/ jcanvas
 	$("canvas").scaleCanvas({
 			 x: 100, y: 100,
 		 	 width: 1, height: 1

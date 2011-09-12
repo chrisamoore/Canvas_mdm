@@ -18,7 +18,9 @@
 </head>
 <body>
 	<div id="canvas">
-		<canvas height="" width=""></canvas>
+		<canvas height="" width="">
+			Uh... You should update your browser. <a href="http://browsehappy.com/">Browse Happy</a>
+		</canvas>
 	</div>
 	<div id="stamp-pad-nav"> colors</div>
 	<div id="footer">
