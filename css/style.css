@@ -1,0 +1,40 @@
+body{
+	background: #efefef;
+	margin: 0;
+}
+canvas{
+	background: #ffffff;
+	padding: 0;
+	position: absolute;
+	cursor: url(../imgs/cursor.png), none;
+}
+
+#footer{
+	background: gray;
+	height: 20px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+#stamp-pad{
+	background: white;
+	float: right;
+}
+#stamp-pad-nav{
+	background: white;
+	height: 200px;
+	width: 100px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#mycursor {
+     cursor: none;
+     width: 97px;
+     height: 137px;
+     position: absolute;
+     display: none;
+     top: 0;
+     left: 0;
+     z-index: 10000;
+}
